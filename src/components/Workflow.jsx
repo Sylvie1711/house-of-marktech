@@ -13,7 +13,7 @@ const Workflow = () => {
       </h2>
       <div className="flex flex-wrap justify-center">
         <div className="p-2 w-full lg:w-1/2 flex flex-col items-center">
-          <img src={codeImg} alt="Coding" className="mb-2" />
+          <img src={codeImg} alt="Coding" className="mb-2" loading="lazy" />
         </div>
         <div className="pt-12 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
